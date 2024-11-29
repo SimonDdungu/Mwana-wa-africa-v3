@@ -1,0 +1,50 @@
+.Each_OurBlogCard{
+    width: 300px;
+    height: 346.66px;
+    position: relative;
+    cursor: default;
+    transition: 200ms ease;
+}
+@media (hover: hover) {
+    .Each_OurBlogCard:hover {
+        transform: scale(1.05);
+    }
+}
+
+.Our_Blog_Image{
+    width: 100%;
+    height: 100%;
+}
+.Our_Blog_Image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Our_Blog_Image:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(0,0,0, 0.9),rgba(0,0,0, 0.6),rgba(0,0,0, 0.3), rgba(0,0,0, 0));
+}
+.Our_Blog_Text{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px 10px 5px;
+    color: white;
+}
+.Our_Blog_Date{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    color: rgb(215, 215, 215);
+}
+.Our_Blog_Heading{
+    font-size: 25px;
+    font-weight: 600;
+}

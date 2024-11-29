@@ -1,0 +1,20 @@
+:root{
+  --orange: #F57C00;
+  --deep-orange: #F57C00;
+  --dark-orange: #E65100;
+  --light-orange: #FFAB40;
+  --background-grey: #F5F5F5;
+  --dark-grey: #333333;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+a, a:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

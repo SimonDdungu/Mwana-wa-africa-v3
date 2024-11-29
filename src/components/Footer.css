@@ -1,0 +1,105 @@
+.footer{
+    background-color: var(--background-grey);
+    background-image: url("../images/background/Orange background 2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+.footer_container{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_Logo{
+    width: 400px;
+    cursor: default;
+}
+.Footer_Links{
+    width: 200px;
+}
+.Footer_Contact{
+width: 450px;
+}
+
+.Footer_Logo > img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.Footer_Links > span{
+    display: block;
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+.Footer_Links ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Footer_Links ul li{
+    position: relative;
+    padding-left: 23px;
+}
+
+.Footer_Links ul li:before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background-image: url("../images/icons/arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Footer_Links ul li a{
+    color: white;
+}
+
+.Footer_Contact .head{
+    display: block;
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+.Footer_Contact ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Footer_Contact ul li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+.Footer_Socials > span{
+    display: block;
+    margin-bottom: 10px;
+    cursor: default;
+}
+.Footer_Socials ul{
+    list-style: none;
+    padding: 0 10px;
+    display: flex;
+    gap: 20px;
+}
+.Footer_Socials ul li img{
+    width: 25px
+}
+.Footer_Socials ul li{
+    margin-bottom: 10px;
+    cursor: pointer;
+}

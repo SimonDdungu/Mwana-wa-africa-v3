@@ -1,0 +1,7 @@
+.Landing_site{
+    background-color: var(--background-grey);
+    background-image: url("../images/background/Orange background 2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

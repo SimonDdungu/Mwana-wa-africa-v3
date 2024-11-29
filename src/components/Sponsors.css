@@ -1,0 +1,21 @@
+.Sponsors{
+    padding: 80px;
+    background-color: var(--background-grey);
+}
+
+.Sponsors_heading{
+    text-align: center;
+    color: var(--dark-orange);
+    margin-bottom: 40px;
+}
+.Sponsors_slide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.Sponsors_slide img{
+    width: 100px;
+    pointer-events: none;
+}

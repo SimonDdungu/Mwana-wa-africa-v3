@@ -1,0 +1,15 @@
+.Our_Blogs{
+    padding: 100px;
+}
+.Our_Blogs_container > h3{
+    text-align: center;
+    color: var(--dark-orange);
+    margin-bottom: 50px;
+}
+
+.Our_Blog_Cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

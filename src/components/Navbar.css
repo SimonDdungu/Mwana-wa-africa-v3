@@ -1,0 +1,51 @@
+.Navigation_Bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px 50px;
+    background-color: rgba(0, 0, 0, 0.37);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.352);
+}
+
+.Nav_Logo{
+    width: 80px;
+    pointer-events: none;
+}
+.Nav_Logo img{
+    width: 100%;
+}
+
+.Nav_items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.Nav_links{
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+
+.Nav_links a{
+    color: white;
+}
+
+.Nav_Donate{
+    margin: 0;
+    padding: 0;
+}
+.Nav_Donate a{
+    background-color: var(--orange);
+    padding: 10px 40px;
+    border-radius: 10px;
+    transition: all 200ms ease;
+}
+.Nav_Donate a:hover{
+    background-color: var(--dark-orange);
+}

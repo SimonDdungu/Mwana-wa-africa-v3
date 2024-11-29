@@ -1,0 +1,122 @@
+.Hero_section{
+    height: 90vh;
+    padding: 80px 0;
+    color: white;
+}
+
+.Hero_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+ 
+}
+
+.Hero_Text{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Hero_Text > h1{
+    font-size: 54px;
+}
+
+.Hero_Text > p{
+    font-size: 18px;
+}
+
+
+
+.Hero_buttons a{
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.Hero_GetInvolved{
+    background-color: var(--orange);
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: all 200ms ease;
+}
+.Hero_GetInvolved:hover{
+    background-color: var(--dark-orange);
+}
+
+.Hero_LearnMore{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: all 200ms ease;
+}
+
+.Hero_LearnMore:hover{
+    background-color: white;
+}
+
+
+.Hero_Image{
+    width: 500px;
+    border-radius: 12px;
+    position: relative;
+    color: black;
+}
+
+.Hero_Image img{
+    width: 100%;
+    border-radius: 12px;
+}
+.Hero_Image:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 12px;
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.Hero_floating_cards{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 250px;
+    height: 90px;
+    border-radius: 12px;
+    padding: 15px 20px;
+    pointer-events: none;
+    margin: 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Hero_floating_cards > img{
+    width: 50px;
+}
+.Hero_floating_cards .inner_Hero_float_text > span{
+    font-size: 16px;
+    font-weight: 700;
+}
+.Hero_floating_cards .inner_Hero_float_text > p{
+    font-size: 11px;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.Hero_floating_cards:nth-child(1){
+    bottom: 70px;
+    left: -80px;
+    width: 300px;
+}
+
+.Hero_floating_cards:nth-child(2){
+    top: 150px;
+    right: -100px;
+}
+
+.Hero_floating_cards:nth-child(3){
+    top: 40px;
+    left: -100px;
+}
