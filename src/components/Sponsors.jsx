@@ -1,7 +1,7 @@
 import './Sponsors.css'
 import Airtel_Logo from '../images/Sponsors/Airtel Logo.png'
 import Absa_Logo from '../images/Sponsors/Absa logo.png'
-import Jubilee_Logo from '../images/Sponsors/jubilee logo.png'
+import Jubilee_Logo from '../images/Sponsors/Jubilee logo.png'
 import MTN_Logo from '../images/Sponsors/mtn logo.jpg'
 import Nssf_Logo from '../images/Sponsors/Nssf logo.png'
 function Sponsors(){
